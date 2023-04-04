@@ -30,3 +30,9 @@ Projekt je rađen u Android Studiu, a za programski jezik izabrana je **Java** u
 [![My Skills](https://skills.thijs.gg/icons?i=androidstudio,java,firebase)](https://skills.thijs.gg)
 
 Za izlistavanje serija, sezona i epizoda korišten je **RecyclerView**, a za dohvaćanje podataka o serijama koristi se **Retrofit** koji se spaja na [EPISODATE API](https://www.episodate.com/api) radi dohvaćanja podataka o serijama.
+
+---
+
+### Pokretanje projekta
+
+Za pokretanje projekta potrebno je kreirati vlastitu Firebase bazu, potom dobivene podatke za spajanje zalijepiti u `app/build/generated/res/google-services/debug/values.xml`.
