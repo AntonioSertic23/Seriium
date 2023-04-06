@@ -10,7 +10,7 @@ Tu su dakle _prijava i registracija_ koji rade putem Firebase-a za koje postoji 
 
 ---
 
-Kada se prijavi u aplikaciju, korisnik može:
+### Kada se prijavi u aplikaciju, korisnik može:
 
 - vidjeti svoju listu serija
 - pretražiti serije
@@ -29,7 +29,7 @@ Projekt je rađen u Android Studiu, a za programski jezik izabrana je **Java** u
 \
 [![My Skills](https://skills.thijs.gg/icons?i=androidstudio,java,firebase)](https://skills.thijs.gg)
 
-Za izlistavanje serija, sezona i epizoda korišten je **RecyclerView**, a za dohvaćanje podataka o serijama koristi se **Retrofit** koji se spaja na [EPISODATE API](https://www.episodate.com/api) radi dohvaćanja podataka o serijama.
+Za izlistavanje serija, sezona i epizoda korišten je **RecyclerView**, a za dohvaćanje podataka o serijama koristi se **Retrofit** koji se spaja na [EPISODATE API](https://www.episodate.com/api).
 
 ---
 
