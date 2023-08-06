@@ -1,34 +1,34 @@
 # Seriium
 
-## Mobilna aplikacija za vođenje evidencije serija
+## Mobile Application for Tracking TV Series
 
-Mobilna aplikacija Seriium je nastala na faksu kao projekt za konstrukcijske vježbe za predmet **Programiranje mobilnih aplikacija**.
+The Seriium mobile application was created during college as a project for the course **Mobile Application Programming**.
 
-Aplikacija služi za vođenje evidencije serija kako bi si korisnik mogao pratiti gdje je stao sa gledanjem.
+The application serves the purpose of keeping track of TV series, allowing the user to monitor where they left off with watching.
 
-Projekt je rađen u Android Studiu, a za programski jezik izabrana je **Java** uz **Firebase** bazu podataka. Primjenjena su znanja korištenja: activitya, adaptera, fragmenta, listenera, izrade modela i služenja network-om.
+The project was developed in Android Studio, and **Java** was chosen as the programming language with **Firebase** as the database. The application incorporates knowledge of using activities, adapters, fragments, listeners, model creation, and network usage.
 
 [![My Skills](https://skills.thijs.gg/icons?i=androidstudio,java,firebase)](https://skills.thijs.gg)
 
-Za izlistavanje serija, sezona i epizoda korišten je **RecyclerView**, a za dohvaćanje podataka o serijama koristi se **Retrofit** koji se spaja na [EPISODATE API](https://www.episodate.com/api).
+**RecyclerView** is used for listing series, seasons, and episodes. For fetching series data, **Retrofit** is used, which connects to the [EPISODATE API](https://www.episodate.com/api).
 
-Tu su _prijava i registracija_ koje rade putem Firebase-a i za koje postoji potvrda profila mail adresom.
-
----
-
-### Kada se prijavi u aplikaciju, korisnik može:
-
-- vidjeti svoju listu serija
-- pretražiti serije
-- pogledati detalje pojedine serije
-- dodavati i micati serije iz svoje liste
-- označavati i odznačavati pogledane sezone i epizode
-- ima uvid u bogatu statistiku
-- ima uvid u svoj profil
-- izmjeniti korisničke podatke za svoj profil
+The app includes _sign-in and registration_ functionalities that work through Firebase and require email confirmation for profile verification.
 
 ---
 
-### Pokretanje projekta
+### Once signed in, the user can:
 
-Za pokretanje projekta potrebno je kreirati vlastitu Firebase bazu, potom dobivene podatke za spajanje zalijepiti u `app/build/generated/res/google-services/debug/values.xml`.
+- View their list of TV series.
+- Search for TV series.
+- View details of each TV series.
+- Add and remove TV series from their list.
+- Mark and unmark watched seasons and episodes.
+- Access rich statistics.
+- View their profile details.
+- Modify user data for their profile.
+
+---
+
+### Project Setup
+
+To run the project, you need to create your own Firebase database. Then, paste the obtained connection data into `app/build/generated/res/google-services/debug/values.xml`.
