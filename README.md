@@ -8,7 +8,7 @@ The application serves the purpose of keeping track of TV series, allowing the u
 
 The project was developed in Android Studio, and **Java** was chosen as the programming language with **Firebase** as the database. The application incorporates knowledge of using activities, adapters, fragments, listeners, model creation, and network usage.
 
-[![My Skills](https://skills.thijs.gg/icons?i=androidstudio,java,firebase)](https://skills.thijs.gg)
+[![My Skills](https://skillicons.dev/icons?i=androidstudio,java,firebase)](https://skillicons.dev)
 
 **RecyclerView** is used for listing series, seasons, and episodes. For fetching series data, **Retrofit** is used, which connects to the [EPISODATE API](https://www.episodate.com/api).
 
